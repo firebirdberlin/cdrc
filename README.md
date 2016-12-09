@@ -9,12 +9,14 @@ Usage
 Add the following line to **.bash_profile**
 
     source path/to/cdrc.sh
+    # to achieve cdrc to be re-executed in the same path when a new shell is opened
+    cd .
 
 Restart your bash. 
 
-Now the command *cd* is sentitive for the existance of two files **.cdrc_enter** and **.cdrc_leave**
+Now the command *cd* is senstitive for the existence of the two files **.cdrc_enter** and **.cdrc_leave**
 
-The files can be place in any directory. 
+The files can be placed within any directory. 
  * **.cdrc_enter**: contains things to do when entering this directory. 
  * **.cdrc_leave** contains thing to do when leaving the directory.  
 
